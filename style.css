@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 600px;
+  width: auto;
+  max-width: 100%;
+  background-image: url("./images/airways.jpg");
+  background-size: center;
+  background-size: cover;
+}
+nav {
+  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.nav-log {
+  height: 100px;
+  width: 100px;
+  background-image: url("./images/logo.png");
+  background-size: center;
+  background-size: 100% 100%;
+  margin-left: 80px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #219ebc;
+}
+nav ul li a:hover {
+  color: #023047;
+  text-decoration: underline;
+}
+.language {
+  margin-right: 80px;
+}
+
+select {
+  height: 30px;
+  width: 50px;
+  background-color: transparent;
+  color: #219ebc;
+  border: none;
+}
+
+.btn {
+  height: 30px;
+  width: 80px;
+  border-color: #8ecae6;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #219ebc;
+}
+
+.btn:hover {
+  background-color: #8ecae6;
+  color: white;
+}
+
+.container-inner {
+  height: 85%;
+  width: auto;
+}
+
+.text-box {
+  height: 200px;
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-left: 150px;
+}
+
+.text-box h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #023047;
+}
+
+.text-box p {
+  color: #023047;
+  font-weight: bold;
+}
+
+.btn2 {
+  height: 40px;
+  width: 150px;
+  border-color: #8ecae6;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-left: 170px;
+  margin-top: 50px;
+  background-color: #219ebc;
+  color: white;
+  border: none;
+}
+
+.btn2:hover {
+  background-color: #023047;
+}
+/* 
+container2 */
+
+.container2 {
+  height: 600px;
+  width: auto;
+}
+.header {
+  height: 100px;
+  width: auto;
+  padding: 10px;
+}
+
+.header h1 {
+  margin-left: 150px;
+  color: #023047;
+}
+.whole {
+  height: 82%;
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-left: 150px;
+}
+
+.mode1 {
+  height: 250px;
+  width: 400px;
+  background-color: rgb(210, 142, 53);
+  border-radius: 10px;
+  background-image: url("./images/bridge.jpg");
+  background-size: center;
+  background-size: 100% 100%;
+}
+
+.mode2 {
+  height: 250px;
+  width: 250px;
+  background-color: #12748f;
+  border-radius: 10px;
+  background-image: url("./images/france.jpg");
+  background-size: center;
+  background-size: 100% 100%;
+}
+.mode3 {
+  height: 250px;
+  width: 200px;
+  background-color: #0e576b;
+  border-radius: 10px;
+  background-image: url("./images/bodh gaya.jpg");
+  background-size: center;
+  background-size: 100% 100%;
+}
+.mode4 {
+  height: 200px;
+  width: 400px;
+  background-color: #0ac6f9;
+  border-radius: 10px;
+  background-image: url("./images/mahal.jpg");
+  background-size: center;
+  background-size: 100% 100%;
+}
+.mode5 {
+  height: 200px;
+  width: 400px;
+  background-color: #0ac6f9;
+  border-radius: 10px;
+  background-image: url("./images/keral.jpg");
+  background-size: center;
+  background-size: 100% 100%;
+}
+
+.content p{
+    font-weight: bold;
+}
+
+/* services */
+.services {
+  height: 350px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.head {
+  height: 60px;
+  width: auto;
+  text-align: center;
+  color: #023047;
+  margin-top: 50px;
+}
+.ref {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ref h3,
+p,
+a {
+  margin: 5px;
+}
+
+.ref a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #023047;
+}
+.model1 {
+  height: 300px;
+  width: 300px;
+}
+.model2 {
+  height: 300px;
+  width: 300px;
+}
+.model3 {
+  height: 300px;
+  width: 300px;
+}
+
+.image1 {
+  height: 180px;
+  width: auto;
+  background-image: url("./images/hotel.jpg");
+  background-size: center;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+
+.image2 {
+  height: 180px;
+  width: auto;
+  border-radius: 10px;
+  background-image: url("./images/car.jpg");
+  background-size: center;
+  background-size: 100% 100%;
+}
+
+.image3 {
+  height: 180px;
+  width: auto;
+  border-radius: 10px;
+  background-image: url("./images/money.jpg");
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+/* clients */
+.clients {
+  height: 300px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.content {
+  height: 300px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #023047;
+  padding: 10px;
+}
+
+.content h1 {
+  margin: 10px;
+}
+.photo {
+  height: 300px;
+  width: 40%;
+  background-image: url("./images/tt.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+.updates {
+  height: 600px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.updates h2 {
+  color: #023047;
+}
+
+.heading-cont {
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  color: #023047;
+  margin-top: 20px;
+}
+.cont1 {
+  height: 350px;
+  width: 400px;
+  margin-bottom: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cont2 {
+  height: 350px;
+  width: 400px;
+
+  margin-bottom: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.cont3 {
+  height: 350px;
+  width: 400px;
+
+  margin-bottom: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer {
+  height: 200px;
+  width: auto;
+  background-color: #023047;
+  position: relative;
+}
+
+.bottom {
+  height: 300px;
+  width: 800px;
+  background-color: black;
+  position: absolute;
+  top: -150px;
+  left: 225px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-image: url("./images/mount.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bottom h1 {
+  color: white;
+  padding: 15px;
+}
+
+.bottom input {
+  height: 40px;
+  width: 270px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+}
+
+.bottom .btn3 {
+  height: 40px;
+  width: 100px;
+  background-color: #fca311;
+  border-radius: 2px;
+  border: none;
+}
+
+/*-------------------------------------*/
+
+.foot-content {
+  height: 300px;
+  width: auto;
+  background-color: #023047;
+  position: relative;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: absolute;
+  top: 100px;
+  left: 25px;
+
+  color: white;
+}
+
+.footer-section {
+  flex: 1;
+  /* margin: 10px; */
+}
+
+.footer-section h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.footer-section p,
+.footer-section ul {
+  margin: 10px 0;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: start;
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+
+.social-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.social-links li a:hover {
+  text-decoration: underline;
+}
+
+.foot-co {
+  height: 200px;
+  width: 250px;
+}
+
+.foo-img {
+  height: 170px;
+  width: 250px;
+  background-image: url("./images/logo.png");
+  background-position: center;
+  background-size: 100% 100%;
+}
